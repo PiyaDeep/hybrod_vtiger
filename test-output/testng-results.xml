@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="8" total="12" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-28T15:43:32 IST" name="Suite" finished-at="2022-11-28T15:44:09 IST" duration-ms="37204">
+    <groups>
+      <group name="Regression">
+        <method signature="E2E_Test.TC08_varify_NewPotential_save()[pri:0, instance:com.vtiger.tests.E2E_Test@b62d79]" name="TC08_varify_NewPotential_save" class="com.vtiger.tests.E2E_Test"/>
+        <method signature="E2E_Test.TC10_varify_activitysave()[pri:0, instance:com.vtiger.tests.E2E_Test@b62d79]" name="TC10_varify_activitysave" class="com.vtiger.tests.E2E_Test"/>
+        <method signature="LoginTest.TC01_Invalidlogin()[pri:0, instance:com.vtiger.tests.LoginTest@2accdbb5]" name="TC01_Invalidlogin" class="com.vtiger.tests.LoginTest"/>
+        <method signature="LoginTest.TC02_validlogin()[pri:0, instance:com.vtiger.tests.LoginTest@2accdbb5]" name="TC02_validlogin" class="com.vtiger.tests.LoginTest"/>
+      </group> <!-- Regression -->
+      <group name="smoke">
+        <method signature="E2E_Test.TC08_varify_NewPotential_save()[pri:0, instance:com.vtiger.tests.E2E_Test@b62d79]" name="TC08_varify_NewPotential_save" class="com.vtiger.tests.E2E_Test"/>
+        <method signature="E2E_Test.TC10_varify_activitysave()[pri:0, instance:com.vtiger.tests.E2E_Test@b62d79]" name="TC10_varify_activitysave" class="com.vtiger.tests.E2E_Test"/>
+        <method signature="LoginTest.TC01_Invalidlogin()[pri:0, instance:com.vtiger.tests.LoginTest@2accdbb5]" name="TC01_Invalidlogin" class="com.vtiger.tests.LoginTest"/>
+        <method signature="LoginTest.TC02_validlogin()[pri:0, instance:com.vtiger.tests.LoginTest@2accdbb5]" name="TC02_validlogin" class="com.vtiger.tests.LoginTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2022-11-28T15:43:32 IST" name="Test" finished-at="2022-11-28T15:44:09 IST" duration-ms="37204">
+      <class name="com.vtiger.tests.E2E_Test">
+        <test-method signature="TC08_varify_NewPotential_save()[pri:0, instance:com.vtiger.tests.E2E_Test@b62d79]" started-at="2022-11-28T15:43:51 IST" name="TC08_varify_NewPotential_save" finished-at="2022-11-28T15:44:05 IST" duration-ms="13400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC08_varify_NewPotential_save -->
+        <test-method signature="TC10_varify_activitysave()[pri:0, instance:com.vtiger.tests.E2E_Test@b62d79]" started-at="2022-11-28T15:44:05 IST" name="TC10_varify_activitysave" finished-at="2022-11-28T15:44:09 IST" duration-ms="4721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC10_varify_activitysave -->
+      </class> <!-- com.vtiger.tests.E2E_Test -->
+      <class name="com.vtiger.tests.LoginTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.vtiger.tests.LoginTest@2accdbb5]" started-at="2022-11-28T15:43:21 IST" name="init" finished-at="2022-11-28T15:43:32 IST" duration-ms="11623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="TC01_Invalidlogin()[pri:0, instance:com.vtiger.tests.LoginTest@2accdbb5]" started-at="2022-11-28T15:43:32 IST" name="TC01_Invalidlogin" finished-at="2022-11-28T15:43:35 IST" duration-ms="2781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_Invalidlogin -->
+        <test-method signature="TC02_validlogin()[pri:0, instance:com.vtiger.tests.LoginTest@2accdbb5]" started-at="2022-11-28T15:43:35 IST" name="TC02_validlogin" finished-at="2022-11-28T15:43:51 IST" duration-ms="16211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_validlogin -->
+        <test-method is-config="true" signature="closeapp()[pri:0, instance:com.vtiger.tests.LoginTest@2accdbb5]" started-at="2022-11-28T15:44:11 IST" name="closeapp" finished-at="2022-11-28T15:44:13 IST" duration-ms="1945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- com.vtiger.tests.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
